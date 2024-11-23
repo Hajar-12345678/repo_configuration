@@ -17,6 +17,10 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
+  
+  cloud:
+    discovery:
+      enabled: false  # Désactive la découverte Eureka
 
 server:
   port: 8081
