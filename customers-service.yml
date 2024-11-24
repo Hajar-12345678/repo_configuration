@@ -23,4 +23,4 @@ spring:
       enabled: false  # Désactive la découverte Eureka
 
 server:
-  port: 8081
+  port: 8084
